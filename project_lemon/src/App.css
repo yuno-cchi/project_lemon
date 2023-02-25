@@ -20,6 +20,10 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
+.inLightBackground {
+  color: #555555;
+}
+
 .debug_color_1 {
   background-color: salmon;
 }
@@ -38,13 +42,30 @@
   line-height: 0px;
 }
 
+.header {
+  line-height: 0%;
+}
+
 .listEntry {
   font-size:1.2em;
   min-width: 50%;
   text-align: center;
 }
 
+#todoInput {
+  width: 40%;
+  text-align: center;
+}
+
 .listEntry:hover {
   opacity: 50%;
   cursor: pointer;
+}
+
+#todoComponent {
+  background-color: #e0e0e0;
+  border-radius: 30px;
+  padding: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }

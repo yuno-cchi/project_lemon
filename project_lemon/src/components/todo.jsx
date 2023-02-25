@@ -32,19 +32,22 @@ function Todo() {
     const isInputEmpty = inputValue.trim() === "";
 
     return (
-        <div>
-            <h1 class="noselect">to do</h1>
+        <div id="todoComponent">
+            <h1 class="noselect inLightBackground header">to do</h1>
+            <h2 class="noSelect inLightBackground header">(click on entry to remove)</h2>
+            <br/>
             <form onSubmit={addTodo}>
                 <input
+                    id="todoInput"
                     type="text"
                     placeholder="What needs to be done?"
                     value={inputValue}
                     onChange={handleInputChange}
                     ref={todoText}
                 />
-                <button type="submit" disabled={isInputEmpty}>Add Todo</button>
+                <button type="submit" disabled={isInputEmpty}>Add</button>
             </form>
-            <ul id="ToDoList">
+            <ul id="ToDoList" class="inLightBackground">
                 {todos.map((todo, index) => (
                     <li
                         key={todo}
