@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://www.youtube.com/shorts/Nuk08ggByKs" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://www.youtube.com/watch?v=DUVJxgZX0UQ" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
