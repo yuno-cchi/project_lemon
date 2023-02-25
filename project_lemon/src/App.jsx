@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Clock from './components/clock'
+import Todo from './components/todo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Clock />
+      <Todo />
     </div>
   )
 }

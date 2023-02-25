@@ -21,8 +21,8 @@ const Clock = () => {
 
     return (
         <div>
-            <h1>{currentTime}</h1>
-            <h2>{currentDate}</h2>
+            <p id="time" class="noselect">{currentTime}</p>
+            <p id="date" class="noselect">{currentDate}</p>
         </div>
     )
 }
