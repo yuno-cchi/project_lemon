@@ -2,9 +2,12 @@
 
 #root {
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  max-width: 1280px;
-  margin: 0 auto;
   text-align: center;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
 }
 
 .noselect {
@@ -36,7 +39,9 @@
 }
 
 .listEntry {
-  font-size:2em;
+  font-size:1.2em;
+  min-width: 50%;
+  text-align: center;
 }
 
 .listEntry:hover {

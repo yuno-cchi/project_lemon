@@ -7,9 +7,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <Clock />
-      <Todo />
+    <div id="container" className="App">
+      <div id="left">
+        <Clock id="clock"/>
+      </div>
+      <div id="right">
+        <Todo />
+      </div>
     </div>
   )
 }
