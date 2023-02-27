@@ -1,4 +1,4 @@
-# project_lemon
+# project_lemon (depracated)
 My team's entry in the IEEE Student Brach hackathon iNTUition 9.0
 
 # Installtion and Running
